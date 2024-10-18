@@ -1,0 +1,114 @@
+/* General Styles */
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+    background: linear-gradient(135deg, #f0f8ff 0%, #def2f1 100%);
+    color: #1f3b4d;
+    line-height: 1.6;
+}
+
+h2, h3 {
+    color: #3aafa9;
+    text-align: center;
+    text-shadow: 1px 1px 3px rgba(0, 0, 0, 0.1);
+}
+
+ul {
+    color: #1f3b4d;
+    padding-left: 20px;
+}
+
+/* Header Styles */
+header {
+    background-color: #2b7a78;
+    color: #ffffff;
+    padding: 1rem 2rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+header .logo {
+    display: flex;
+    align-items: center;
+}
+
+header .logo img {
+    width: 50px;
+    margin-right: 10px;
+}
+
+header .logo .name {
+    font-size: 1.8rem;
+    font-weight: bold;
+    color: #ffffff;
+}
+
+nav ul {
+    list-style-type: none;
+    display: flex;
+    gap: 1.5rem;
+}
+
+nav ul li a {
+    color: #ffffff;
+    text-decoration: none;
+    font-weight: bold;
+    text-transform: uppercase;
+    letter-spacing: 0.1rem;
+}
+
+nav ul li a:hover {
+    background-color: #3aafa9;
+    padding: 0.5rem 1rem;
+    border-radius: 5px;
+}
+
+/* Main Section */
+main {
+    max-width: 800px;
+    margin: 2rem auto;
+    padding: 1rem;
+}
+
+.reference-intro {
+    margin-bottom: 2rem;
+}
+
+.reference-list ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+.reference-list ul li {
+    background-color: #ffffff;
+    padding: 1rem;
+    margin-bottom: 1rem;
+    border-radius: 5px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+.reference-list ul li a {
+    color: #3aafa9;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.reference-list ul li a:hover {
+    text-decoration: underline;
+}
+
+/* Footer Styles */
+footer {
+    background-color: #2b7a78;
+    color: #ffffff;
+    text-align: center;
+    padding: 1rem;
+    margin-top: 2rem;
+}
+
+footer p {
+    margin: 0;
+}

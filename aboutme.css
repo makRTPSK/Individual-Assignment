@@ -1,0 +1,151 @@
+/* General Styles */
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+    background: linear-gradient(135deg, #f0f8ff 0%, #def2f1 100%);
+    color: #1f3b4d;
+    line-height: 1.6;
+}
+
+h2, h3 {
+    color: #3aafa9;
+    text-align: center;
+    text-shadow: 1px 1px 3px rgba(0, 0, 0, 0.1);
+}
+
+/* Header Styles */
+header {
+    background-color: #2b7a78;
+    color: #ffffff;
+    padding: 1rem 2rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+header .logo {
+    display: flex;
+    align-items: center;
+}
+
+header .logo img {
+    width: 50px;
+    margin-right: 10px;
+}
+
+header .logo .name {
+    font-size: 1.8rem;
+    font-weight: bold;
+    color: #ffffff;
+}
+
+nav ul {
+    list-style-type: none;
+    display: flex;
+    gap: 1.5rem;
+}
+
+nav ul li a {
+    color: #ffffff;
+    text-decoration: none;
+    font-weight: bold;
+    text-transform: uppercase;
+    letter-spacing: 0.1rem;
+}
+
+nav ul li a:hover {
+    background-color: #3aafa9;
+    padding: 0.5rem 1rem;
+    border-radius: 5px;
+}
+
+/* Image Gallery */
+.image-gallery {
+    display: flex;
+    justify-content: space-between;
+    margin: 2rem 0;
+    max-width: 1200px;
+    margin-left: auto;
+    margin-right: auto;
+    gap: 20px; /* Adds space between the images */
+}
+
+.gallery-img {
+    flex-basis: 48%; /* Each image takes up roughly half the container */
+    height: 600px;
+    object-fit: cover;
+    border-radius: 10px;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.gallery-img:hover {
+    transform: scale(1.05);
+    box-shadow: 0 6px 20px rgba(0, 0, 0, 0.15);
+}
+
+
+
+/* Resume Section */
+.resume-section {
+    text-align: center;
+    margin: 2rem 0;
+}
+
+.resume-section h3 {
+    color: #2b7a78;
+}
+
+.resume-thumbnail {
+    width: 200px;
+    border-radius: 10px;
+    border: 3px solid #2b7a78;
+    transition: transform 0.3s ease, border 0.3s ease;
+}
+
+.resume-thumbnail:hover {
+    transform: scale(1.05);
+    border: 3px solid #3aafa9;
+}
+
+/* Professional Section */
+.professional-section {
+    padding: 2rem;
+    background-color: rgba(255, 255, 255, 0.9);
+    border-radius: 10px;
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1);
+    margin: 2rem;
+}
+
+.professional-section h3 {
+    color: #2b7a78;
+    margin-bottom: 1rem;
+}
+
+.professional-section p {
+    margin-bottom: 1rem;
+}
+
+.professional-section ul {
+    list-style-type: disc;
+    margin-left: 2rem;
+    color: #17252a;
+}
+
+.professional-section ul ul {
+    list-style-type: circle;
+    margin-left: 2rem;
+}
+
+footer {
+    background-color: #2b7a78;
+    color: #ffffff;
+    text-align: center;
+    padding: 1rem;
+}
+
+footer p {
+    margin: 0;
+}
